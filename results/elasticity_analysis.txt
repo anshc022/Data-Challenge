@@ -1,0 +1,76 @@
+PRICE ELASTICITY ANALYSIS REPORT
+==================================================
+
+OVERALL ANALYSIS:
+  price_elasticity: -0.02419751294242916
+  r_squared: 0.000946724199706428
+  significance: Significant
+  interpretation: inelastic (price-insensitive), normal relationship
+
+CATEGORY ANALYSIS:
+
+Kurta:
+  elasticity: -0.4805369086125843
+  r_squared: 0.19059799002881783
+  n_observations: 780
+  interpretation: inelastic (price-insensitive), normal relationship
+
+Kurta Set:
+  elasticity: -0.7695713508473394
+  r_squared: 0.39789611843364026
+  n_observations: 324
+  interpretation: moderately elastic, normal relationship
+
+Nill:
+  elasticity: -0.7131305355931442
+  r_squared: 0.6214294574143645
+  n_observations: 59
+  interpretation: moderately elastic, normal relationship
+
+JNE3440:
+  elasticity: -0.0
+  r_squared: 1.0
+  n_observations: 42
+  interpretation: inelastic (price-insensitive), unusual positive relationship
+
+SET268:
+  elasticity: 89.163985226556
+  r_squared: 0.26977431735884416
+  n_observations: 52
+  interpretation: highly elastic (price-sensitive), unusual positive relationship
+
+JNE3489:
+  elasticity: -0.0
+  r_squared: 1.0
+  n_observations: 42
+  interpretation: inelastic (price-insensitive), unusual positive relationship
+
+JNE3555:
+  elasticity: 0.0
+  r_squared: 1.0
+  n_observations: 37
+  interpretation: inelastic (price-insensitive), unusual positive relationship
+
+SET197:
+  elasticity: 0.0
+  r_squared: 1.0
+  n_observations: 42
+  interpretation: inelastic (price-insensitive), unusual positive relationship
+
+SET236:
+  elasticity: 0.0
+  r_squared: 1.0
+  n_observations: 40
+  interpretation: inelastic (price-insensitive), unusual positive relationship
+
+JNE3669:
+  elasticity: 0.0
+  r_squared: 1.0
+  n_observations: 40
+  interpretation: inelastic (price-insensitive), unusual positive relationship
+
+KEY INSIGHTS:
+• Most price-sensitive category: JNE3712 (elasticity: -796.888)
+• Least price-sensitive category: J0130 (elasticity: 3858.552)
+• Average elasticity across categories: 9.764
+• Categories with inelastic demand (|elasticity| < 1): 265 out of 308
