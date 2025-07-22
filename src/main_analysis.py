@@ -147,8 +147,8 @@ class PricingAnalysisPipeline:
                 
                 f.write(f"Analysis Date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
                 f.write(f"Dataset Size: {len(self.data)} records\n")
-                f.write(f"Categories Analyzed: {len(self.data['Category'].unique())}\n")
-                f.write(f"SKUs: {len(self.data['SKU'].unique())}\n\n")
+                f.write(f"Categories Analyzed: {len(self.data['category'].unique())}\n")
+                f.write(f"SKUs: {len(self.data['sku'].unique())}\n\n")
                 
                 # Elasticity results
                 if hasattr(self.analyzer, 'elasticity_results') and self.analyzer.elasticity_results:
